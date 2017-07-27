@@ -39,6 +39,14 @@ public class Print {
         }
     }
 
+    public static void v (String... messages) {
+        if (LOG_ENABLED) {
+            for (String message : messages) {
+                Log.v(TAG, message);
+            }
+        }
+    }
+
     public static void i (String tag, String message) {
         if (LOG_ENABLED) {
             Log.i(tag, message);
@@ -48,6 +56,14 @@ public class Print {
     public static void i (String message) {
         if (LOG_ENABLED) {
             Log.i(TAG, message);
+        }
+    }
+
+    public static void i (String... messages) {
+        if (LOG_ENABLED) {
+            for (String message : messages) {
+                Log.i(TAG, message);
+            }
         }
     }
 
@@ -63,6 +79,14 @@ public class Print {
         }
     }
 
+    public static void d (String... messages) {
+        if (LOG_ENABLED) {
+            for (String message : messages) {
+                Log.d(TAG, message);
+            }
+        }
+    }
+
     public static void w (String tag, String message) {
         if (LOG_ENABLED) {
             Log.w(tag, message);
@@ -72,6 +96,14 @@ public class Print {
     public static void w (String message) {
         if (LOG_ENABLED) {
             Log.w(TAG, message);
+        }
+    }
+
+    public static void w (String... messages) {
+        if (LOG_ENABLED) {
+            for (String message : messages) {
+                Log.w(TAG, message);
+            }
         }
     }
 
@@ -87,6 +119,14 @@ public class Print {
         }
     }
 
+    public static void e (String... messages) {
+        if (LOG_ENABLED) {
+            for (String message : messages) {
+                Log.e(TAG, message);
+            }
+        }
+    }
+
     public static void wtf (String tag, String message) {
         if (LOG_ENABLED) {
             Log.wtf(tag, message);
@@ -96,6 +136,14 @@ public class Print {
     public static void wtf (String message) {
         if (LOG_ENABLED) {
             Log.wtf(TAG, message);
+        }
+    }
+
+    public static void wtf (String... messages) {
+        if (LOG_ENABLED) {
+            for (String message : messages) {
+                Log.wtf(TAG, message);
+            }
         }
     }
 
