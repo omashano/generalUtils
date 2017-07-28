@@ -4,7 +4,7 @@ ext {
     bintrayRepo = 'generalUtils'  // this is the same as whatever you called your repository in Bintray
     bintrayName = 'general-utils' // your bintray package name. I am calling it the same as my library name.
 
-    publishedGroupId = 'com.omashano.generalutils'
+    publishedGroupId = 'com.github.omashano'
     libraryName = 'general-utils'
     artifact = 'general-utils' // I'm calling it the same as my library name
 
@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/omashano/generalUtils'
     gitUrl = 'https://github.com/omashano/generalUtils'
 
-    libraryVersion = '1.0.1'
+    libraryVersion = '1.0.3'
 
     developerId = 'myID' // Maven plugin uses this. I don't know if it needs to be anything special.
     developerName = 'Ayoub Bouhtouch'
