@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://github.com/omashano/generalUtils'
     gitUrl = 'https://github.com/omashano/generalUtils.git'
 
-    libraryVersion = '1.0.5'
+    libraryVersion = '1.0.6'
 
     developerId = 'myID' // Maven plugin uses this. I don't know if it needs to be anything special.
     developerName = 'Ayoub Bouhtouch'
